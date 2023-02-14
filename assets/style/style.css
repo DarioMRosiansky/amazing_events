@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+.cabecera{
+    height: 25vh;
+    font-size: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
