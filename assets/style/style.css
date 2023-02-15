@@ -15,9 +15,8 @@ main{
 }
 
 .cabecera{
-    height: 25vh;
-    font-size: 5rem;
+    height: 30vh;
+    font-size: 15rem;
     width: 100%;
     box-sizing: border-box;
 }
-
