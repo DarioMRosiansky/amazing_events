@@ -14,7 +14,7 @@ function generateCards(events) {
                         <p class="card-text">${evento.description}</p>
                     </div>
                     <div class="card-footer d-flex justify-content-end">
-                        <a href="./pages/details.html" class="btn card-btn btn-primary">More Details</a>
+                        <a href="./details.html" class="btn card-btn btn-primary">More Details</a>
                     </div>
                 </div>
             </div>
