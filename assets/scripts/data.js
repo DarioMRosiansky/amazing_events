@@ -84,6 +84,7 @@ let data = {
       capacity: 138000,
       estimate: 138000,
       price: 150
+      
     },
     {
       _id: 8,
