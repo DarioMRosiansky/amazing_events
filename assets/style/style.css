@@ -72,6 +72,11 @@ main{
   align-items: center;
 }
 
+#contact{
+background: rgb(20,0,88);
+background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
+}
+
 .main-stats{
   display: flex;
   flex-direction: column;
@@ -83,19 +88,40 @@ main{
  
  
  }
+ #tableEvents{
+  background-color: blueviolet;
+  color: aliceblue;
+ }
+
+ #upcomingtable{
+  background-color: rgb(13, 131, 13)!important;
+  color: aliceblue;
+ }
+
+ #pasttable{
+  background-color: rgb(236, 19, 19)!important;
+  color: aliceblue;
+ }
+
+ tr{
+  background-color: rgb(231, 11, 184);
+ }
+
+ th{
+  background-color: aquamarine!important;
+ }
+
+ td{
+  background-color: aquamarine;
+ }
 
 .table{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 5px solid rgb(198, 5, 21);
   width: 90%;
   margin-top: 10vh;
   margin-bottom: 10vh; 
 }
-
-.th{
-  background-color: aqua!important;
-}
-
 
 .stats{
   display: flex;
