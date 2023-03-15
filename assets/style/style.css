@@ -85,51 +85,28 @@ background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
  width: 100%;
  justify-content: center;
  align-items: center;
- 
- 
- }
- #tableEvents{
-  background-color: blueviolet;
-  color: aliceblue;
- }
-
- #upcomingtable{
-  background-color: rgb(13, 131, 13)!important;
-  color: aliceblue;
- }
-
- #pasttable{
-  background-color: rgb(236, 19, 19)!important;
-  color: aliceblue;
  }
 
  tr{
-  background-color: rgb(231, 11, 184);
+  background-color: rgb(51, 3, 41)!important;
  }
 
  th{
-  background-color: aquamarine!important;
+  background-color: rgb(129, 120, 214)!important;
  }
 
  td{
   background-color: aquamarine;
+  border: 5px solid rgb(198, 5, 21)!important;
+  color: white;
  }
 
 .table{
-  background-color: rgb(255, 255, 255);
-  border: 5px solid rgb(198, 5, 21);
+   border: 5px solid rgb(198, 5, 21);
   width: 90%;
   margin-top: 10vh;
   margin-bottom: 10vh; 
 }
-
-.stats{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-
 
 @media only screen and (min-width: 960px) {
   .form-contact{
