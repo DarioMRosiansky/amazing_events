@@ -1,28 +1,36 @@
-*{padding: 0;
+*{
+  padding: 0;
   margin: 0;
+}
+
+html{
+  height: 100%;
 }
 
 body{
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  
 }
 
 main{
   background: rgb(1,1,1);
   background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(24,24,116,1) 65%, rgba(3,0,255,1) 100%);
-    }
+  min-height: 100vh;  
+}
 
 .searchbar {
   justify-content: flex-end;
   align-self: center;
-  margin-left: 4vh;
+  margin: 4vh;
+  width: 30%;
 }
 
 .card {
   width: 18rem;
   border: 1px solid black !important;
+  margin: 3rem;
   padding: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   align-items: center;
@@ -72,11 +80,6 @@ main{
   align-items: center;
 }
 
-#contact{
-background: rgb(20,0,88);
-background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
-}
-
 .main-stats{
   display: flex;
   flex-direction: column;
@@ -85,28 +88,45 @@ background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
  width: 100%;
  justify-content: center;
  align-items: center;
+ 
+ 
  }
 
- tr{
-  background-color: rgb(51, 3, 41)!important;
- }
-
- th{
-  background-color: rgb(129, 120, 214)!important;
- }
-
- td{
-  background-color: aquamarine;
-  border: 5px solid rgb(198, 5, 21)!important;
-  color: white;
- }
-
-.table{
-   border: 5px solid rgb(198, 5, 21);
-  width: 90%;
-  margin-top: 10vh;
-  margin-bottom: 10vh; 
-}
+ #contact{
+  background: rgb(20,0,88);
+  background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
+  }
+  
+  .main-stats{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: auto;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   }
+  
+   tr{
+    background-color: rgb(51, 3, 41)!important;
+   }
+  
+   th{
+    background-color: rgb(129, 120, 214)!important;
+   }
+  
+   td{
+    background-color: aquamarine;
+    border: 5px solid rgb(198, 5, 21)!important;
+    color: white;
+   }
+  
+  .table{
+     border: 5px solid rgb(198, 5, 21);
+    width: 90%;
+    margin-top: 10vh;
+    margin-bottom: 10vh; 
+  }
 
 @media only screen and (min-width: 960px) {
   .form-contact{
@@ -119,5 +139,8 @@ background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
 .form-control{
   width: 100%;
   justify-content: center !important;
+}
+.searchbar {
+  width: 100%;
 }
 }
