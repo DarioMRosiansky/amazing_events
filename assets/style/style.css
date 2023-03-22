@@ -92,26 +92,41 @@ main{
  
  }
 
-.table{
-  background-color: white;
-  border: 5px solid rgb(198, 5, 21);
-  width: 90%;
-  margin-top: 10vh;
-  margin-bottom: 10vh; 
-}
-
-.th{
-  background-color: aqua!important;
-}
-
-
-.stats{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ #contact{
+  background: rgb(20,0,88);
+  background: linear-gradient(87deg, rgba(20,0,88,1) 0%, rgba(76,70,252,1) 100%);
   }
-
+  
+  .main-stats{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: auto;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   }
+  
+   tr{
+    background-color: rgb(51, 3, 41)!important;
+   }
+  
+   th{
+    background-color: rgb(129, 120, 214)!important;
+   }
+  
+   td{
+    background-color: aquamarine;
+    border: 5px solid rgb(198, 5, 21)!important;
+    color: white;
+   }
+  
+  .table{
+     border: 5px solid rgb(198, 5, 21);
+    width: 90%;
+    margin-top: 10vh;
+    margin-bottom: 10vh; 
+  }
 
 @media only screen and (min-width: 960px) {
   .form-contact{
