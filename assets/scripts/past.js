@@ -15,7 +15,7 @@ function createCheckboxs(values, container){
     let template=''
     values.forEach(value => template += `
     <label class="btn btn-light active">
-    <input class="form-check-input me-2" type="checkbox" value="${value}" id="flexCheckDefault2" checked autocomplete="off">${value}
+    <input class="form-check-input me-2" type="checkbox" value="${value}" id="flexCheckDefault2" uchecked autocomplete="off">${value}
     </label>
     `)
     container.innerHTML = template

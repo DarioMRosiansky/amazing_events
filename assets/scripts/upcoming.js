@@ -16,7 +16,7 @@ function createCheckboxs(values, container){
     let template=''
     values.forEach(value => template += `
     <label class="btn btn-light active">
-    <input class="form-check-input me-2" type="checkbox" value="${value}" id="flexCheckDefault2" checked autocomplete="off">${value}
+    <input class="form-check-input me-2" type="checkbox" value="${value}" id="flexCheckDefault2" unchecked autocomplete="off">${value}
     </label>
     `)
     container.innerHTML = template
@@ -56,7 +56,7 @@ $checkboxs.addEventListener('change', (event) =>{
     })
 
 function filterCards(events){
-    const checked= Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(input=>input.value) //toma el valor de los checkboxes
+    const checked= Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(input=>input.value)
     if(fn.length!=0){
         return events.filter(card => checked.includes(card.category)) 
     } else {
@@ -65,11 +65,11 @@ function filterCards(events){
 }
 
 function filteredText(array){
-    const input_value = document.querySelector("input[type='search']").value //toma el valor de la searchbar
+    const input_value = document.querySelector("input[type='search']").value
     if (input_value==""){
         return array
     } else{
-        return array.filter(card=>card.name.toLowerCase().includes(input_value.toLowerCase())) //filtra segun el input del searchbar
+        return array.filter(card=>card.name.toLowerCase().includes(input_value.toLowerCase()))
     }
 }
 
